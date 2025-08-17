@@ -1,4 +1,4 @@
-package com.bikerboys.barebackridinglivestockcompat;
+package com.bikerboys.olivestockcompat;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 public class Main
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "barebackridinglivestockcompat";
+    public static final String MODID = "olivestockcompat";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
