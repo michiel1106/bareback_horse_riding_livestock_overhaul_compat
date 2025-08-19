@@ -17,6 +17,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(mainmodclass.MODID)
 public class mainmodclass
@@ -28,6 +30,8 @@ public class mainmodclass
 
     public mainmodclass(FMLJavaModLoadingContext context)
     {
+
+
         IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
