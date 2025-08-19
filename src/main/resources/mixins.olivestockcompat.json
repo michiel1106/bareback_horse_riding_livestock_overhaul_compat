@@ -4,7 +4,9 @@
   "package": "com.bikerboys.olivestockcompat.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [],
-  "mixins": [],
+  "mixins": [
+    "OhorseMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
